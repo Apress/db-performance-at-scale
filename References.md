@@ -28,9 +28,11 @@ This page provides quick access to the resources shared throughout the book, as 
 ## Appendix A
 
 ## Data Modeling
-Getting data modeling right is vital for database performance, but it's a massive topic that varies significantly across database models and types. We didn't feel that a chapter (or even a few chapters) could do it justice. Here are some resources we recommend: 
+Getting data modeling right is vital for database performance, but it's a massive topic that varies significantly across database models and types. We reference data modeling throughout the book, but did not feel that adding a dedicated chapter on data modeling would be feasible or adequate. Here are some recommended resources we recommend: 
 
 - [NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence](https://martinfowler.com/books/nosql.html), by Pramod J. Sadalage and Martin Fowler
+
+- [Top NoSQL Data Modeling Mistakes for Performance](https://youtu.be/QIeT_LppzSg) 
 
 
 
