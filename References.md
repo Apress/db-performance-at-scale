@@ -18,7 +18,6 @@ This page provides quick access to the resources shared throughout the book, as 
 
 ## Chapter 6 - Getting Data Closer
 
-
 ## Chapter 7 - Infrastructure & Deployment Models
 
 ## Chapter 8 - Topology Considerations 
@@ -57,7 +56,8 @@ Getting data modeling right is vital for database performance, but it's a massiv
 
 - [NoSQL Data Modeling 101](https://www.youtube.com/watch?v=v_Vhuovsejw) - Tzach Livatan (ScyllaDB) covers NoSQL vs SQL data modeling and how to get started with NoSQL (primary key selection, application query analysis, & more) 
  
-- [Top NoSQL Data Modeling Mistakes for Performance](https://youtu.be/QIeT_LppzSg) - Felipe Cardeneti Mendes (ScyllaDB) on how to avoid the top data modeling mistakes that impact performance (access the demonstrated "bad practices" in this [GitHub repo](https://github.com/fee-mendes/masterclass-datamodeling)) 
+- [Top NoSQL Data Modeling Mistakes for Performance](https://youtu.be/QIeT_LppzSg) - Felipe Cardeneti Mendes (ScyllaDB) on how to avoid the top data modeling mistakes that impact performance (access the demonstrated "bad practices" in this [GitHub repo](https://github.com/fee-mendes/masterclass-datamodeling))
+- [Indexes, Filters, and Other Animals](https://www.scylladb.com/tech-talk/indexes-filters-and-other-animals/) - Piotr Sarna (Turso) on the performance impacts of global/local secondary indexes and filtering 
 
 
 
