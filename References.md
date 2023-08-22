@@ -32,7 +32,8 @@ Getting data modeling right is vital for database performance, but it's a massiv
 
 - [NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence](https://martinfowler.com/books/nosql.html), by Pramod J. Sadalage and Martin Fowler
 
-- [Top NoSQL Data Modeling Mistakes for Performance](https://youtu.be/QIeT_LppzSg) 
+- [Top NoSQL Data Modeling Mistakes for Performance](https://youtu.be/QIeT_LppzSg)
+
 
 
 
