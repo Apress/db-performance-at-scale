@@ -5,6 +5,10 @@ This page provides quick access to the resources shared throughout the book, as 
 
 ## Chapter 2 - Your Project, Through the Lens of Database Performance
 
+### Learn More
+- [DynamoDB Transactions Performance Testing](https://www.alexdebrie.com/posts/dynamodb-transactions-performance/) Alex Debrie (DeBrie Advisory) shares his assessment of how large of a performance cost is incurred with DynamoDB transactions
+
+
 ## Chapter 3 - Database Internals: Hardware and Operation System Interactions
 
 ### Learn More
@@ -21,6 +25,9 @@ This page provides quick access to the resources shared throughout the book, as 
 ## Chapter 7 - Infrastructure & Deployment Models
 
 ## Chapter 8 - Topology Considerations 
+
+### Learn More
+
 
 ## Chapter 9 - Benchmarking
 
@@ -46,6 +53,10 @@ This page provides quick access to the resources shared throughout the book, as 
 - [Scaling Raft](https://www.youtube.com/watch?v=TP17idY3VHI) - Konstantine Osipov (ScyllaDB) on the challenges of supporting hundreds of instances of the Raft protocol on a single node and how to significantly reduce the static burden on the network and disk each Raft group creates
 
 - [Leveraging Consistent Hashing in your Python Applications](https://www.youtube.com/watch?v=erINlrgygEk) Alexys Jacob (Numberly) introduces consistent hashing, and the problems it solves, by walking through a practical use case in a Python application
+- [You're Already Eventually Consistent](http://rustyrazorblade.com/post/2015/2015-06-02-youre-already-eventually-consistent/) Jon Haddad (Rustyrazorblade) clears up some misconceptions about eventual consistency
+- [Inconsistent Thoughts on Database Consistency](https://www.alexdebrie.com/posts/database-consistency/) Alex Debrie  discusses the various definitions of the word "consistency" that are used in the distributed databases space then shares some of his issues with conversations about consistency
+- [Understanding Eventual Consistency in DynamoDB](https://www.alexdebrie.com/posts/dynamodb-eventual-consistency/) - Alex Debrie dispels some of the fear around eventual consistency in DynamoDB
+  
 
 ## Data Modeling
 Getting data modeling right is vital for database performance, but it's a massive topic that varies significantly across database models and types. We reference data modeling throughout the book, but did not feel that adding a dedicated chapter on data modeling would be feasible or adequate. Here are some recommended resources we recommend: 
@@ -59,8 +70,10 @@ Getting data modeling right is vital for database performance, but it's a massiv
 - [Top NoSQL Data Modeling Mistakes for Performance](https://youtu.be/QIeT_LppzSg) - Felipe Cardeneti Mendes (ScyllaDB) on how to avoid the top data modeling mistakes that impact performance (access the demonstrated "bad practices" in this [GitHub repo](https://github.com/fee-mendes/masterclass-datamodeling))
 - [Indexes, Filters, and Other Animals](https://www.scylladb.com/tech-talk/indexes-filters-and-other-animals/) - Piotr Sarna (Turso) on the performance impacts of global/local secondary indexes and filtering 
 
+- [The Myth of Schema-less](http://rustyrazorblade.com/post/2014/2014-07-09-the-myth-of-schemaless/) - Jon Haddad (Rustyrazorblade) debunking the myth of schemaless databases
 
-
+- [Everything you need to know about DynamoDB Partitions](https://www.alexdebrie.com/posts/dynamodb-partitions/) - Alex Debrie (DeBrie Advisory) takes a deep look at DynamoDB partitions -- what they are, why they matter, and how they should affect your data modeling
+- [The What, Why, and When of Single-Table Design with DynamoDB](https://www.alexdebrie.com/posts/dynamodb-single-table/) Alex Debrie (DeBrie Advisory) provides a deep dive on the concepts behind DynamoDB's single-table design.
 
 
 
