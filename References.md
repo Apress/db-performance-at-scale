@@ -23,19 +23,22 @@ This page provides quick access to the resources shared throughout the book, as 
 - [Getting the Most Out of Lightweight Transactions in ScyllaDB](https://www.scylladb.com/2020/07/15/getting-the-most-out-of-lightweight-transactions-in-scylla/)
 - [Amazon DynamoDB Transactions: How it Works](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/transaction-apis.html)
 
-
--  
-
 ### Learn More
 - [DynamoDB Transactions Performance Testing](https://www.alexdebrie.com/posts/dynamodb-transactions-performance/) - Alex Debrie (DeBrie Advisory) shares his assessment of how large of a performance cost is incurred with DynamoDB transactions
 
-
 ## Chapter 3 - Database Internals: Hardware and Operation System Interactions
-
+- [Exploring Phantom Traffic Jams in Your Data Flows (video)](https://www.youtube.com/watch?v=IXS_Afb6Y4o)
+- [Exploring Phantom Traffic Jams in Your Data Flows (blog)](https://www.scylladb.com/2022/04/19/exploring-phantom-jams-in-your-data-flow/)
+- [Diskplorer](https://github.com/scylladb/diskplorer)
+- [Understanding Storage I/O Under Load](https://www.youtube.com/watch?v=Am-nXO6KK58)
+- [The CPU Cost of Networking on a Host](https://people.kernel.org/dsahern/the-cpu-cost-of-networking-on-a-host)
+- [DPDK (Data Plane Developers Kit)](https://www.dpdk.org/)
+  
 ### Learn More
  - [What We Need to Unlearn About Persistent Storage](https://www.p99conf.io/session/what-we-need-to-unlearn-about-persistent-storage/) - Pavel Emelyanov (ScyllaDB) talks about ways to measure the performance of modern hardware and what it all means for databases
+- [How io_uring and eBPF Will Revolutionize Programming in Linux](https://www.scylladb.com/2020/05/05/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/) - Glauber Costa's take on why io_uring and eBPF will completely change the way applications work with, and think about, the Linux Kernel
+- [Linux Kernel vs DPDK: HTTP Performance Showdown](https://talawah.io/blog/linux-kernel-vs-dpdk-http-performance-showdown/) - AWS' Marc Richards uses an HTTP benchmark to compare the performance of the Linux kernel networking stack with userspace networking doing kernel bypass via DPDK
 
-- [Avoiding Data Hotspots at Scale](https://www.p99conf.io/session/avatar-image-avoiding-data-hotspots-at-scale/) - Konstantine Osipov (ScyllaDB) addresses the tradeoffs between hash and range-based sharding
 
 ## Chapter 4 - Database Internals: Algorithmic Optimizations
 
