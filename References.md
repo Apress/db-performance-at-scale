@@ -89,9 +89,11 @@ This page provides quick access to the resources shared throughout the book, as 
 - [Operator Pattern in the Kubernetes docs](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)
 
 ## Chapter 8 - Topology Considerations 
-
-### Learn More
-
+-  [Cassandra Production Guidelines](https://cassandra.apache.org/doc/latest/cassandra/getting_started/production.html)
+-  [Heat Weighted Load Balancing](https://www.scylladb.com/2017/09/21/scylla-heat-weighted-load-balancing/)
+ - [How Discord Migrated Trillions of Messages from Cassandra to ScyllaDB](https://www.youtube.com/watch?v=S2xmFOAUhsk)
+ - [ShareChat’s Path to High-Performance NoSQL with ScyllaDB](https://www.youtube.com/watch?v=Y2yHv8iqigA)
+- [Load Balancing in ScyllaDB’s DynamoDB-Compatible API, Alternator](https://www.scylladb.com/2021/04/13/load-balancing-in-scylla-alternator/)
 
 ## Chapter 9 - Benchmarking
 
