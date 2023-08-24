@@ -112,7 +112,7 @@ This page provides quick access to the resources shared throughout the book, as 
 
 ### Learn More
 - [How to Monitor PostgreSQL](https://www.youtube.com/watch?v=JmKATEVYC8s) - Baron Schwartz (Percona) on how to monitor a database by understanding the difference between workload and resource monitoring—and the golden signals for each
-- [Observability Best Practices in Distributed Databases] - Felipe Cardeneti Mendes (ScyllaDB) on distributed database observability, showing several real-world situations that may affect workload performance and how to diagnose them
+- [Observability Best Practices in Distributed Databases](https://youtu.be/cRf20DUDpSE) - Felipe Cardeneti Mendes (ScyllaDB) on distributed database observability, showing several real-world situations that may affect workload performance and how to diagnose them
   
 ## Chapter 11 - Admin
 -  [How a Database Looks from a Disk’s Perspective](https://www.p99conf.io/session/how-a-database-looks-from-a-disks-perspective/)
@@ -128,7 +128,7 @@ This page provides quick access to the resources shared throughout the book, as 
 
 - [Avoiding Data Hotspots at Scale](https://www.p99conf.io/session/avatar-image-avoiding-data-hotspots-at-scale/) - Konstantine Osipov (ScyllaDB) addresses the tradeoffs between hash and range-based sharding
 
- - [Building state-of-art LSM-tree compaction](https://www.scylladb.com/presentations/scaling-scylladb-storage-engine-with-state-of-art-compaction/) - Raphael Carvalho's (ScyllaDB) perspective on using RUM conjecture and controller theory to engineer state-of-art LSM-tree compaction
+ - [Building state-of-art LSM-tree compaction](https://www.scylladb.com/presentations/scaling-scylladb-storage-engine-with-state-of-art-compaction/) - Raphael Carvalho (ScyllaDB) on using RUM conjecture and controller theory to engineer state-of-art LSM-tree compaction
 
 - [Scaling Raft](https://www.youtube.com/watch?v=TP17idY3VHI) - Konstantine Osipov (ScyllaDB) on the challenges of supporting hundreds of instances of the Raft protocol on a single node and how to significantly reduce the static burden on the network and disk each Raft group creates
 
@@ -144,7 +144,7 @@ Getting data modeling right is vital for database performance, but it's a massiv
 
 - [NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence](https://martinfowler.com/books/nosql.html) - A book by Pramod J. Sadalage and Martin Fowler
 
-- [Data Modeling Concepts and Principles](https://www.youtube.com/watch?v=ukpr6VIJNxY) - Pascal Desmarets, (Hackolade) discusses the foundations of NoSQL data modeling
+- [Data Modeling Concepts and Principles](https://www.youtube.com/watch?v=ukpr6VIJNxY) - Pascal Desmarets (Hackolade) discusses the foundations of NoSQL data modeling
 
 - [NoSQL Data Modeling 101](https://www.youtube.com/watch?v=v_Vhuovsejw) - Tzach Livatan (ScyllaDB) covers NoSQL vs SQL data modeling and how to get started with NoSQL (primary key selection, application query analysis, & more) 
  
