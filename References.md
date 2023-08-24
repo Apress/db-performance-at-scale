@@ -42,8 +42,26 @@ This page provides quick access to the resources shared throughout the book, as 
 - [How Application-Level Priority Management Keeps Latency Low and Throughput High](https://www.linuxfoundation.org/webinars/how-application-level-priority-management-keeps-latency-low-and-throughput-high) - Avi Kivity (ScyllaDB) on how high throughput and low latency can both be achieved in a single application by using application-level priority scheduling
 
 ## Chapter 4 - Database Internals: Algorithmic Optimizations
+- [Branch predictor: How many "if"s are too many? Including x86 and M1 benchmarks!](  https://blog.cloudflare.com/branch-predictor/)
+- [Eytzinger Binary Search](https://algorithmica.org/en/eytzinger)
+- [ScyllaDB GitHub repo](https://github.com/scylladb/scylladb)
+- [Tarantool GitHub repo](https://github.com/tarantool/tarantool)
 
 ## Chapter 5 - Database Drivers
+ - [PostgreSQL Frontend/Backend Protocol](https://www.postgresql.org/docs/7.3/protocol-protocol.html)
+ - [DynamoDB Developer Guide on the DynamoDB API](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.API.html)
+ - [gRPC](https://grpc.io)
+ - [Apache Spark]( https://spark.apache.org/)
+ - [Wrong data returned due to reusing stream ids of requests that timed out on the client side](https://datastax-oss.atlassian.net/browse/PYTHON-1286)
+ - [ResponseFuture: do not return the stream ID on client timeout](https://github.com/scylladb/python-driver/pull/106)
+ - [Stop reusing stream ids of requests that have timed out due to client-side timeout](https://github.com/datastax/python-driver/pull/1114)
+ - [ScyllaDB Gossip documentation](https://docs.scylladb.com/stable/kb/gossip.html)
+ -  [A Universally Unique IDentifier (UUID) URN Namespace](https://www.ietf.org/rfc/rfc4122.txt)
+ -  [DataStax Murmur3Partitioner documentation](https://docs.datastax.com/en/cassandra-oss/3.x/cassandra/architecture/archPartitionerM3P.html)
+ -  [Logical Clocks](https://homes.cs.washington.edu/~arvind/cs425/lectureNotes/clocks-2.pdf)
+ -  [Efficient IO with io_uring](https://kernel.dk/io_uring.pdf)
+ -  [Seastar documentation on Futures and Promises](https://seastar.io/futures-promises/)
+ -  [PostgreSQL Drivers documentation](https://wiki.postgresql.org/wiki/List_of_drivers)
 
 ## Chapter 6 - Getting Data Closer
 
