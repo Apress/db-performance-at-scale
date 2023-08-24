@@ -34,9 +34,12 @@ This page provides quick access to the resources shared throughout the book, as 
 - [DPDK (Data Plane Developers Kit)](https://www.dpdk.org/)
   
 ### Learn More
+ - [Building Efficient I/O Intensive Applications with Seastar](https://www.youtube.com/watch?v=p8d28t4qCTY) - Avi Kivity (ScyllaDB) on the theory behind Seastar, how it is used in practice, and the advanced C++ techniques used.
+ - [Different I/O Access Methods for Linux, What We Chose for ScyllaDB, and Why](https://www.youtube.com/watch?v=27Xz21RJoUA) - Avi Kivity (ScyllaDB) shares why ScyllaDB chose asynchronous direct I/O (AIO/DIO) and explains how that decision has impacted engineering efforts as well as product performance
  - [What We Need to Unlearn About Persistent Storage](https://www.p99conf.io/session/what-we-need-to-unlearn-about-persistent-storage/) - Pavel Emelyanov (ScyllaDB) talks about ways to measure the performance of modern hardware and what it all means for databases
-- [How io_uring and eBPF Will Revolutionize Programming in Linux](https://www.scylladb.com/2020/05/05/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/) - Glauber Costa's take on why io_uring and eBPF will completely change the way applications work with, and think about, the Linux Kernel
-- [Linux Kernel vs DPDK: HTTP Performance Showdown](https://talawah.io/blog/linux-kernel-vs-dpdk-http-performance-showdown/) - AWS' Marc Richards uses an HTTP benchmark to compare the performance of the Linux kernel networking stack with userspace networking doing kernel bypass via DPDK
+- [How io_uring and eBPF Will Revolutionize Programming in Linux](https://www.scylladb.com/2020/05/05/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/) - Glauber Costa (Turso) shares his take on why io_uring and eBPF will completely change the way applications work with, and think about, the Linux Kernel
+- [Linux Kernel vs DPDK: HTTP Performance Showdown](https://talawah.io/blog/linux-kernel-vs-dpdk-http-performance-showdown/) - Marc Richards (AWS) uses an HTTP benchmark to compare the performance of the Linux kernel networking stack with userspace networking doing kernel bypass via DPDK
+- [How Application-Level Priority Management Keeps Latency Low and Throughput High](https://www.linuxfoundation.org/webinars/how-application-level-priority-management-keeps-latency-low-and-throughput-high) - Avi Kivity (ScyllaDB) on how high throughput and low latency can both be achieved in a single application by using application-level priority scheduling
 
 ## Chapter 4 - Database Internals: Algorithmic Optimizations
 
