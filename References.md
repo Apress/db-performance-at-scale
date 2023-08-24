@@ -64,6 +64,21 @@ This page provides quick access to the resources shared throughout the book, as 
  -  [PostgreSQL Drivers documentation](https://wiki.postgresql.org/wiki/List_of_drivers)
 
 ## Chapter 6 - Getting Data Closer
+- [CVE-2021-44521](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44521)
+- [CVE-2021-44521: Exploiting Apache Cassandra User-Defined Functions for Remote Code Execution](https://jfrog.com/blog/cve-2021-44521-exploiting-apache-cassandra-user-defined-functions-for-remote-code-execution/)
+- [Microsoft Azure documentation on the Noisy Neighbor antipattern](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/noisy-neighbor/noisy-neighbor)
+- [Bytecode Alliance documentation](https://wasmtime.dev)
+- [Wasmtime documentation](https://docs.wasmtime.dev/api/wasmtime/struct.Store.html#method.fuel_consumed)
+- [ScyllaDB documentation on ScyllaDB CQL Extensions](https://github.com/scylladb/scylladb/blob/master/docs/cql/cql-extensions.md#reducefunc-for-uda)
+- [PostgreSQL documentation on User-Defined Aggregates](https://www.postgresql.org/docs/current/xaggr.html#XAGGR-MOVING-AGGREGATES)
+- [Wasmtime](https://wasmtime.dev/)
+- [Wasmer.io](https://wasmer.io/)
+- [WasmEdge](https://wasmedge.org/)
+- [V8](https://v8.dev/)
+- [wapm]( https://wapm.io/)
+- [WebAssembly: The Definitive Guide](https://www.oreilly.com/library/view/webassembly-the-definitive/9781492089834/)
+- [Programming WebAssembly with Rust](https://pragprog.com/titles/khrust/programming-webassembly-with-rust/)
+- [ScyllaDB’s Take on WebAssembly for User-Defined Functions](https://thenewstack.io/scylladbs-take-on-webassembly-for-user-defined-functions/) 
 
 ## Chapter 7 - Infrastructure & Deployment Models
 
