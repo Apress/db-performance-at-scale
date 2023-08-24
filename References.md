@@ -96,7 +96,17 @@ This page provides quick access to the resources shared throughout the book, as 
 - [Load Balancing in ScyllaDB’s DynamoDB-Compatible API, Alternator](https://www.scylladb.com/2021/04/13/load-balancing-in-scylla-alternator/)
 
 ## Chapter 9 - Benchmarking
-
+- [How Optimizely (Safely) Maximizes Database Concurrency](https://www.youtube.com/watch?v=cSiVoX_nq1s)
+- [YCSB](https://github.com/brianfrankcooper/YCSB)
+- [TPC-C](http://tpc.org/tpcc/default5.asp)
+- [NdBench](https://github.com/Netflix/ndbench)
+- [Nosqlbench](https://github.com/nosqlbench/nosqlbench)
+- [pgbench](https://www.postgresql.org/docs/current/pgbench.html)
+- [TLP-stress](https://github.com/thelastpickle/tlp-stress)
+- [Cassandra-stress](https://github.com/scylladb/scylla-tools-java/tree/master/tools/stress)
+- [How NOT to Measure Latency](https://www.youtube.com/watch?v=lJ8ydIuPFeU)
+- [On Coordinated Omission](https://www.scylladb.com/2021/04/22/on-coordinated-omission/)
+  
 ## Chapter 10 - Monitoring
 
 ### Learn More
