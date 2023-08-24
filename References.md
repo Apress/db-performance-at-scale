@@ -108,10 +108,14 @@ This page provides quick access to the resources shared throughout the book, as 
 - [On Coordinated Omission](https://www.scylladb.com/2021/04/22/on-coordinated-omission/)
   
 ## Chapter 10 - Monitoring
+- [perf Heat Maps](https://www.brendangregg.com/blog/2014-07-01/perf-heat-maps.html)
 
 ### Learn More
 - [How to Monitor PostgreSQL](https://www.youtube.com/watch?v=JmKATEVYC8s) - Baron Schwartz (Percona) on how to monitor a database by understanding the difference between workload and resource monitoring—and the golden signals for each
+- [Observability Best Practices in Distributed Databases] - Felipe Cardeneti Mendes (ScyllaDB) on distributed database observability, showing several real-world situations that may affect workload performance and how to diagnose them
+  
 ## Chapter 11 - Admin
+-  [How a Database Looks from a Disk’s Perspective](https://www.p99conf.io/session/how-a-database-looks-from-a-disks-perspective/)
 
 ## Appendix A - A Brief Look at Fundamental Database Design Decisions
 
