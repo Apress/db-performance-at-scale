@@ -81,6 +81,12 @@ This page provides quick access to the resources shared throughout the book, as 
 - [ScyllaDB’s Take on WebAssembly for User-Defined Functions](https://thenewstack.io/scylladbs-take-on-webassembly-for-user-defined-functions/) 
 
 ## Chapter 7 - Infrastructure & Deployment Models
+- [How Discord Supercharges Network Diks for Extreme Low Latency](https://discord.com/blog/how-discord-supercharges-network-disks-for-extreme-low-latency)
+- [Diskplorer results](https://github.com/scylladb/diskplorer#sample-results)
+-  [Detecting CPU Steal Time in Guest Virtual Machines](https://opensource.com/article/20/1/cpu-steal-time)
+-  [The Cost of Containerization for Your ScyllaDB Deployment](https://www.scylladb.com/2018/08/09/cost-containerization-scylla/)
+- [Create a Pod that Gets Assigned a QoS Class of Guaranteed](https://kubernetes.io/docs/tasks/configure-pod-container/quality-service-pod/#create-a-pod-that-gets-assigned-a-qos-class-of-guaranteed)
+- [Operator Pattern in the Kubernetes docs](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)
 
 ## Chapter 8 - Topology Considerations 
 
