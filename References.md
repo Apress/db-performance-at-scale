@@ -7,8 +7,7 @@ This page provides quick access to the resources shared throughout the book, as 
 - [Rubber duck debugging](https://rubberduckdebugging.com)
 - [OpenTelemetry](https://opentelemetry.io/)
 - [mdBook](https://rust-lang.github.io/mdBook/)
-- [Jepsen page on Linearizability](https://jepsen.io/consistency/models/linearizable)
-  
+- [Jepsen page on Linearizability](https://jepsen.io/consistency/models/linearizable) 
 
 ## Chapter 2 - Your Project, Through the Lens of Database Performance
 - [Cassandra Anti-Patterns: Queues and Queue-like Datasets](https://www.datastax.com/blog/cassandra-anti-patterns-queues-and-queue-datasets)
@@ -38,7 +37,6 @@ This page provides quick access to the resources shared throughout the book, as 
  - [What We Need to Unlearn About Persistent Storage](https://www.p99conf.io/session/what-we-need-to-unlearn-about-persistent-storage/) - Pavel Emelyanov (ScyllaDB) talks about ways to measure the performance of modern hardware and what it all means for databases
 - [How io_uring and eBPF Will Revolutionize Programming in Linux](https://www.scylladb.com/2020/05/05/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/) - Glauber Costa's take on why io_uring and eBPF will completely change the way applications work with, and think about, the Linux Kernel
 - [Linux Kernel vs DPDK: HTTP Performance Showdown](https://talawah.io/blog/linux-kernel-vs-dpdk-http-performance-showdown/) - AWS' Marc Richards uses an HTTP benchmark to compare the performance of the Linux kernel networking stack with userspace networking doing kernel bypass via DPDK
-
 
 ## Chapter 4 - Database Internals: Algorithmic Optimizations
 
