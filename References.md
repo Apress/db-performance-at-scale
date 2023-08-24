@@ -2,8 +2,29 @@
 This page provides quick access to the resources shared throughout the book, as well as additional articles, tech talks, etc. that are relevant to the topic of database performance at scale.
 
 ## Chapter 1 - A Taste of What You’re Up Against: Two Tales
+- [Wireshark](https://www.wireshark.org/)
+- [Cassandra hashing quirk](https://github.com/apache/cassandra/blob/56ea39ec704a94b5d23cbe530548745ab2420cee/src/java/org/apache/cassandra/utils/MurmurHash.java#L31-L32)
+- [Rubber duck debugging](https://rubberduckdebugging.com)
+- [OpenTelemetry](https://opentelemetry.io/)
+- [mdBook](https://rust-lang.github.io/mdBook/)
+- [Jepsen page on Linearizability](https://jepsen.io/consistency/models/linearizable)
+  
 
 ## Chapter 2 - Your Project, Through the Lens of Database Performance
+- [Cassandra Anti-Patterns: Queues and Queue-like Datasets](https://www.datastax.com/blog/cassandra-anti-patterns-queues-and-queue-datasets)
+- [Tencent Games’ Real-Time Event-Driven Analytics System Built with ScyllaDB + Pulsar](https://www.scylladb.com/2023/05/15/tencent-games-real-time-event-driven-analytics-system-built-with-scylladb-pulsar/)
+- [Using ScyllaDB for Distribution of Game Assets in Unreal Engine](https://www.youtube.com/watch?v=aEgP9YhAb08)
+- [If You Care About Performance, Employ User Defined Types](https://www.scylladb.com/2017/12/07/performance-udt/)
+- [How NOT to Measure Latency](https://www.youtube.com/watch?v=lJ8ydIuPFeU)
+- [Misery Metrics and Consequences](https://www.p99conf.io/session/misery-metrics-consequences)
+- [Performance Under Load](https://netflixtechblog.medium.com/performance-under-load-3e6fa9a60581)
+- [Understanding the Scaling Behaviour of DynamoDB OnDemand Tables](https://theburningmonk.com/2019/03/understanding-the-scaling-behaviour-of-dynamodb-ondemand-tables/)
+- [DynamoDB Autoscaling Dissected: When a Calculator Beats a Robot](https://www.scylladb.com/2021/07/08/dynamodb-autoscaling-dissected-when-a-calculator-beats-a-robot/)
+- [Getting the Most Out of Lightweight Transactions in ScyllaDB](https://www.scylladb.com/2020/07/15/getting-the-most-out-of-lightweight-transactions-in-scylla/)
+- [Amazon DynamoDB Transactions: How it Works](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/transaction-apis.html)
+
+
+-  
 
 ### Learn More
 - [DynamoDB Transactions Performance Testing](https://www.alexdebrie.com/posts/dynamodb-transactions-performance/) - Alex Debrie (DeBrie Advisory) shares his assessment of how large of a performance cost is incurred with DynamoDB transactions
