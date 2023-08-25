@@ -128,7 +128,7 @@ This page provides quick access to the resources shared throughout the book, as 
 
 - [Avoiding Data Hotspots at Scale](https://www.p99conf.io/session/avatar-image-avoiding-data-hotspots-at-scale/) - Konstantine Osipov (ScyllaDB) addresses the tradeoffs between hash and range-based sharding
 
- - [Building state-of-art LSM-tree compaction](https://www.scylladb.com/presentations/scaling-scylladb-storage-engine-with-state-of-art-compaction/) - Raphael Carvalho (ScyllaDB) on using RUM conjecture and controller theory to engineer state-of-art LSM-tree compaction
+ - [Building State-of-the-Art LSM-tree compaction](https://www.scylladb.com/presentations/scaling-scylladb-storage-engine-with-state-of-art-compaction/) - Raphael Carvalho (ScyllaDB) on using RUM conjecture and controller theory to engineer state-of-art LSM-tree compaction
 
 - [Scaling Raft](https://www.youtube.com/watch?v=TP17idY3VHI) - Konstantine Osipov (ScyllaDB) on the challenges of supporting hundreds of instances of the Raft protocol on a single node and how to significantly reduce the static burden on the network and disk each Raft group creates
 
@@ -153,7 +153,7 @@ Getting data modeling right is vital for database performance, but it's a massiv
 
 - [The Myth of Schema-less](http://rustyrazorblade.com/post/2014/2014-07-09-the-myth-of-schemaless/) - Jon Haddad (Rustyrazorblade) debunking the myth of schemaless databases
 
-- [Everything you need to know about DynamoDB Partitions](https://www.alexdebrie.com/posts/dynamodb-partitions/) - Alex Debrie (DeBrie Advisory) takes a deep look at DynamoDB partitions -- what they are, why they matter, and how they should affect your data modeling
+- [Everything You Need to Know about DynamoDB Partitions](https://www.alexdebrie.com/posts/dynamodb-partitions/) - Alex Debrie (DeBrie Advisory) takes a deep look at DynamoDB partitions -- what they are, why they matter, and how they should affect your data modeling
 - [The What, Why, and When of Single-Table Design with DynamoDB](https://www.alexdebrie.com/posts/dynamodb-single-table/) - Alex Debrie (DeBrie Advisory) provides a deep dive on the concepts behind DynamoDB's single-table design
 
 
