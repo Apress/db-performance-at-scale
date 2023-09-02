@@ -120,6 +120,9 @@ This page provides quick access to the resources shared throughout the book, as 
 
 ### Learn More
 - [How to Measure Latency](https://www.p99conf.io/session/how-to-measure-latency/) - Heinrich Hartmann (Zalando) shares strategies for avoiding pitfalls with collecting, aggregating and analyzing latency data for monitoring and benchmarking.
+- [Solving the Issue of Mysterious Database Benchmarking Results](https://www.youtube.com/watch?v=x4ySN6L9LOQ) - Daniel Seybold (benchANT) on the unique challenges of running database benchmarks in the cloud
+- [The Do's and Don'ts of Database Benchmarking](https://www.youtube.com/watch?v=HS97mZDOdsM) - Glauber Costa (ScyllaDB) outlines a  set of best practices to improve the quality of your benchmarks
+
   
 ## Chapter 10 - Monitoring
 - [perf Heat Maps](https://www.brendangregg.com/blog/2014-07-01/perf-heat-maps.html)
