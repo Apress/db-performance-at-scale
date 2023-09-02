@@ -63,6 +63,11 @@ This page provides quick access to the resources shared throughout the book, as 
  -  [Seastar documentation on Futures and Promises](https://seastar.io/futures-promises/)
  -  [PostgreSQL Drivers documentation](https://wiki.postgresql.org/wiki/List_of_drivers)
 
+### Learn More
+[We’re Porting Our Database Drivers to Async Rust](https://www.scylladb.com/2022/02/22/were-porting-our-database-drivers-to-async-rust/) - Piotr Sarna (ScyllaDB) explains the design decisions taken in implementing a Rust driver and unifying  unify all other ScyllaDB drivers to use Rust underneath
+
+[Optimizing Performance in Rust for Low-Latency Database Drivers](https://www.linuxfoundation.org/webinars/optimizing-performance-in-rust-for-low-latency-database-drivers?hsLang=en) Piotr Grabowski (ScyllaDB) on the performance gains achieved by using the Tokio framework as the backbone of a new, high-performance driver and optimizing various driver components
+
 ## Chapter 6 - Getting Data Closer
 - [CVE-2021-44521](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44521)
 - [CVE-2021-44521: Exploiting Apache Cassandra User-Defined Functions for Remote Code Execution](https://jfrog.com/blog/cve-2021-44521-exploiting-apache-cassandra-user-defined-functions-for-remote-code-execution/)
