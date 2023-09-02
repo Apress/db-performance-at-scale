@@ -80,6 +80,13 @@ This page provides quick access to the resources shared throughout the book, as 
 - [Programming WebAssembly with Rust](https://pragprog.com/titles/khrust/programming-webassembly-with-rust/)
 - [ScyllaDB’s Take on WebAssembly for User-Defined Functions](https://thenewstack.io/scylladbs-take-on-webassembly-for-user-defined-functions/) 
 
+### Learn More
+- [The Whole WebAssembly Enchilada](https://www.youtube.com/watch?v=J3hK7O5Oc2Y) - Brian Sletten (author of "WebAssembly: The Definitive Guide") highlights major trends and offers some suggestions about where WebAssembly is going and why now is the time to start paying attention
+- [What the Heck is the Edge Anyway?](https://blog.turso.tech/what-the-heck-is-the-edge-anyway-a159a12f2412) - Glauber Costa (Turso) on why bringing compute to the edge only solves half the problem, especially if you’re making calls to a centralized database somewhere in a far away cluster
+- [WebAssembly Functions for your SQLite-Compatible Database](https://blog.turso.tech/webassembly-functions-for-your-sqlite-compatible-database-7e1ad95a2aa7) - Piotr Sarna (Turso) on creating WebAssembly user-defined functions for libSQL, an open source, open contribution fork of SQLite
+- [How WebAssembly is Eating the Database, One UDF At a Time](https://dylibso.com/blog/wasm-udf/) -  Dominique Saulet and Steve Manuel (dylibso) on what’s driving the new wave of UDF implementations, along with some thoughts and considerations for the future
+  
+
 ## Chapter 7 - Infrastructure & Deployment Models
 - [How Discord Supercharges Network Disks for Extreme Low Latency](https://discord.com/blog/how-discord-supercharges-network-disks-for-extreme-low-latency)
 - [Diskplorer results](https://github.com/scylladb/diskplorer#sample-results)
@@ -106,6 +113,9 @@ This page provides quick access to the resources shared throughout the book, as 
 - [Cassandra-stress](https://github.com/scylladb/scylla-tools-java/tree/master/tools/stress)
 - [How NOT to Measure Latency](https://www.youtube.com/watch?v=lJ8ydIuPFeU)
 - [On Coordinated Omission](https://www.scylladb.com/2021/04/22/on-coordinated-omission/)
+
+### Learn More
+- [How to Measure Latency](https://www.p99conf.io/session/how-to-measure-latency/) - Heinrich Hartmann (Zalando) shares strategies for avoiding pitfalls with collecting, aggregating and analyzing latency data for monitoring and benchmarking.
   
 ## Chapter 10 - Monitoring
 - [perf Heat Maps](https://www.brendangregg.com/blog/2014-07-01/perf-heat-maps.html)
@@ -116,6 +126,7 @@ This page provides quick access to the resources shared throughout the book, as 
   
 ## Chapter 11 - Admin
 -  [How a Database Looks from a Disk’s Perspective](https://www.p99conf.io/session/how-a-database-looks-from-a-disks-perspective/)
+
 
 ## Appendix A - A Brief Look at Fundamental Database Design Decisions
 
