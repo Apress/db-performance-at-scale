@@ -125,7 +125,7 @@ This page provides quick access to the resources shared throughout the book, as 
 - [Database Benchmarking Efficiency with OtterTune’s Andy Pavlo](https://www.youtube.com/watch?v=i-m9_JuUJ44) - Andy Pavlo (Ottertune) on  “databaseology” and optimizing databases for efficient testing
 - [How to Benchmark Redis](https://www.youtube.com/watch?v=d6KPJ6aKRJI) Filipe Oliveira and
 Or Shwartz (Redis) present several benchmark tools that you can use to understand how Redis (and other databases) performs in an independent, stable, and easily reproducible manner 
--[Demystifying Benchmarks: How to Use Them To Better Evaluate Databases](https://www.youtube.com/watch?v=RFKNDQa29qA) - Peter Friedenbach (Clustrix) covers different benchmarks measures, why they matter, and which ones best apply to your particular use case
+- [Demystifying Benchmarks: How to Use Them To Better Evaluate Databases](https://www.youtube.com/watch?v=RFKNDQa29qA) - Peter Friedenbach (Clustrix) covers different benchmarks measures, why they matter, and which ones best apply to your particular use case
 
   
 ## Chapter 10 - Monitoring
@@ -135,8 +135,8 @@ Or Shwartz (Redis) present several benchmark tools that you can use to understan
 - [How to Monitor PostgreSQL](https://www.youtube.com/watch?v=JmKATEVYC8s) - Baron Schwartz (Percona) on how to monitor a database by understanding the difference between workload and resource monitoring—and the golden signals for each
 - [Observability Best Practices in Distributed Databases](https://youtu.be/cRf20DUDpSE) - Felipe Cardeneti Mendes (ScyllaDB) on distributed database observability, showing several real-world situations that may affect workload performance and how to diagnose them
 - [Top DynamoDB Performance Metrics](https://www.datadoghq.com/blog/top-dynamodb-performance-metrics/) - Jean-Mathieu Saponaro (Datadog) on key performance metrics across requests and throttling, errors, and Global Secondary Index creation
-- [Top Cassandra Performance Metrics]([https://www.datadoghq.com/blog/top-dynamodb-performance-metrics/](https://www.datadoghq.com/blog/how-to-monitor-cassandra-performance-metrics/) - John Matso (Datadog) on key performance metrics across throughput, latency, disk usage, GC, and more
-- 
+- [Top Cassandra Performance Metrics](https://www.datadoghq.com/blog/how-to-monitor-cassandra-performance-metrics/) - John Matso (Datadog) on key performance metrics across throughput, latency, disk usage, GC, and more
+  
 ## Chapter 11 - Admin
 -  [How a Database Looks from a Disk’s Perspective](https://www.p99conf.io/session/how-a-database-looks-from-a-disks-perspective/) 
 
