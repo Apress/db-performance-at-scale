@@ -148,7 +148,7 @@ Or Shwartz (Redis) present several benchmark tools that you can use to understan
 
 ### Learn More
 - [Introduction to NoSQL](https://www.youtube.com/watch?v=qI_g07C_Q5I) - Martin Fowler's crash course on NoSQL foundations
-
+- [CMU Database Group's YouTube Channel](https://www.youtube.com/@CMUDatabaseGroup) - Andy Pavlo offers free online access to his much-talked-about CMU courses, which range from intro to advanced topics
 - [Avoiding Data Hotspots at Scale](https://www.p99conf.io/session/avatar-image-avoiding-data-hotspots-at-scale/) - Konstantine Osipov (ScyllaDB) addresses the tradeoffs between hash and range-based sharding
 
  - [Building State-of-the-Art LSM-tree compaction](https://www.scylladb.com/presentations/scaling-scylladb-storage-engine-with-state-of-art-compaction/) - Raphael Carvalho (ScyllaDB) on using RUM conjecture and controller theory to engineer state-of-art LSM-tree compaction
