@@ -1,6 +1,6 @@
 # Database Performance at Scale
 
-This repository accompanies [Database Performance at Scale:A Practical Guide](https://www.link.springer.com/book/10.1007/9781484297100) by Felipe Cardeneti Mendes, Piotr Sarna, Pavel Emelyanov & Cynthia Dunlop (Apress, 2023).
+This repository accompanies [Database Performance at Scale:A Practical Guide](https://link.springer.com/book/10.1007/978-1-4842-9711-7) by Felipe Cardeneti Mendes, Piotr Sarna, Pavel Emelyanov & Cynthia Dunlop (Apress, 2023).
 
 [comment]: #cover
 ![Cover image](9781484297100.jpg)
