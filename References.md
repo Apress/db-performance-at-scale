@@ -88,7 +88,7 @@ This page provides quick access to the resources shared throughout the book, as 
 - [The Whole WebAssembly Enchilada](https://www.youtube.com/watch?v=J3hK7O5Oc2Y) - Brian Sletten (author of "WebAssembly: The Definitive Guide") highlights major trends and offers some suggestions about where WebAssembly is going and why now is the time to start paying attention
 - [What the Heck is the Edge Anyway?](https://blog.turso.tech/what-the-heck-is-the-edge-anyway-a159a12f2412) - Glauber Costa (Turso) on why bringing compute to the edge only solves half the problem, especially if you’re making calls to a centralized database somewhere in a far away cluster
 - [WebAssembly Functions for your SQLite-Compatible Database](https://blog.turso.tech/webassembly-functions-for-your-sqlite-compatible-database-7e1ad95a2aa7) - Piotr Sarna (Turso) on creating WebAssembly user-defined functions for libSQL, an open source, open contribution fork of SQLite
-- [How WebAssembly is Eating the Database, One UDF At a Time](https://dylibso.com/blog/wasm-udf/) -  Dominique Saulet and Steve Manuel (dylibso) on what’s driving the new wave of UDF implementations, along with some thoughts and considerations for the future
+- [How WebAssembly is Eating the Database, One UDF At a Time](https://dylibso.com/blog/wasm-udf/) - Dominique Saulet and Steve Manuel (dylibso) on what’s driving the new wave of UDF implementations, along with some thoughts and considerations for the future
   
 
 ## Chapter 7 - Infrastructure & Deployment Models
@@ -98,6 +98,10 @@ This page provides quick access to the resources shared throughout the book, as 
 -  [The Cost of Containerization for Your ScyllaDB Deployment](https://www.scylladb.com/2018/08/09/cost-containerization-scylla/)
 - [Create a Pod that Gets Assigned a QoS Class of Guaranteed](https://kubernetes.io/docs/tasks/configure-pod-container/quality-service-pod/#create-a-pod-that-gets-assigned-a-qos-class-of-guaranteed)
 - [Operator Pattern in the Kubernetes docs](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)
+
+### Learn More
+- [Top Mistakes with ScyllaDB: Intro & Infrastructure](https://www.scylladb.com/2023/04/27/top-mistakes-infrastructure/)  - Felipe Mendes applying the lessons of this chapter to a specific database, ScyllaDB.
+- [Top Mistakes with ScyllaDB: Storage](https://www.scylladb.com/2023/07/17/top-mistakes-with-scylladb-storage/) - Felipe Mendes applying the storage-focused lessons of this chapter to a specific database, ScyllaDB. 
 
 ## Chapter 8 - Topology Considerations 
 -  [Cassandra Production Guidelines](https://cassandra.apache.org/doc/latest/cassandra/getting_started/production.html)
