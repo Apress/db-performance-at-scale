@@ -177,7 +177,7 @@ Getting data modeling right is vital for database performance, but it's a massiv
  
 - [Top NoSQL Data Modeling Mistakes for Performance](https://youtu.be/QIeT_LppzSg) - Felipe Cardeneti Mendes (ScyllaDB) on how to avoid the top data modeling mistakes that impact performance (access the demonstrated "bad practices" in this [GitHub repo](https://github.com/fee-mendes/masterclass-datamodeling))
 - [Indexes, Filters, and Other Animals](https://www.scylladb.com/tech-talk/indexes-filters-and-other-animals/) - Piotr Sarna (Turso) on the performance impacts of global/local secondary indexes and filtering 
-
+- [NoSQL Data Modeling Mistakes that Ruin Performance](https://thenewstack.io/nosql-data-modeling-mistakes-that-ruin-performance/) - Felipe Cardeneti Mendes explores three of the most common ways to ruin your NoSQL database performance, along with tips on how to avoid or resolve them
 - [The Myth of Schema-less](http://rustyrazorblade.com/post/2014/2014-07-09-the-myth-of-schemaless/) - Jon Haddad (Rustyrazorblade) debunking the myth of schemaless databases
 
 - [Everything You Need to Know about DynamoDB Partitions](https://www.alexdebrie.com/posts/dynamodb-partitions/) - Alex Debrie (DeBrie Advisory) takes a deep look at DynamoDB partitions -- what they are, why they matter, and how they should affect your data modeling
