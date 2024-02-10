@@ -41,6 +41,7 @@ This page provides quick access to the resources shared throughout the book, as 
 - [How io_uring and eBPF Will Revolutionize Programming in Linux](https://www.scylladb.com/2020/05/05/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/) - Glauber Costa (Turso) shares his take on why io_uring and eBPF will completely change the way applications work with, and think about, the Linux Kernel
 - [Linux Kernel vs DPDK: HTTP Performance Showdown](https://talawah.io/blog/linux-kernel-vs-dpdk-http-performance-showdown/) - Marc Richards (AWS) uses an HTTP benchmark to compare the performance of the Linux kernel networking stack with userspace networking doing kernel bypass via DPDK
 - [How Application-Level Priority Management Keeps Latency Low and Throughput High](https://www.linuxfoundation.org/webinars/how-application-level-priority-management-keeps-latency-low-and-throughput-high) - Avi Kivity (ScyllaDB) on how high throughput and low latency can both be achieved in a single application by using application-level priority scheduling
+- [Inside ScyllaDB’s Internal Cache](https://www.scylladb.com/2024/01/08/inside-scylladbs-internal-cache/) - Tomasz Grabiec (ScyllaDB) on why it makes sense to completely bypasses the Linux cache during reads and use a specialized ,highly efficient row-based cache instead
 
 ## Chapter 4 - Database Internals: Algorithmic Optimizations
 - [Branch predictor: How many "if"s are too many? Including x86 and M1 benchmarks!](  https://blog.cloudflare.com/branch-predictor/)
