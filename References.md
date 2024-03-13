@@ -132,7 +132,7 @@ This page provides quick access to the resources shared throughout the book, as 
 - [How to Benchmark Redis](https://www.youtube.com/watch?v=d6KPJ6aKRJI) Filipe Oliveira and
 Or Shwartz (Redis) present several benchmark tools that you can use to understand how Redis (and other databases) performs in an independent, stable, and easily reproducible manner 
 - [Demystifying Benchmarks: How to Use Them To Better Evaluate Databases](https://www.youtube.com/watch?v=RFKNDQa29qA) - Peter Friedenbach (Clustrix) covers different benchmarks measures, why they matter, and which ones best apply to your particular use case
-
+- [Fair Benchmarking Considered Difficult: Common Pitfalls In Database Performance Testing](https://mytherin.github.io/papers/2018-dbtest.pdf) - Mark Raasveldt, Pedro Holanda, Tim Gubner & Hannes Mühleisen share their a study of the common pitfalls in DBMS performance comparisons and how they can be spotted and avoided
   
 ## Chapter 10 - Monitoring
 - [perf Heat Maps](https://www.brendangregg.com/blog/2014-07-01/perf-heat-maps.html)
