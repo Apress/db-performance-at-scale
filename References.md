@@ -23,7 +23,8 @@ This page provides quick access to the resources shared throughout the book, as 
 - [Amazon DynamoDB Transactions: How it Works](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/transaction-apis.html)
 
 ### Learn More
-- [DynamoDB Transactions Performance Testing](https://www.alexdebrie.com/posts/dynamodb-transactions-performance/) - Alex Debrie (DeBrie Advisory) shares his assessment of how large of a performance cost is incurred with DynamoDB transactions
+- [DynamoDB Transactions Performance Testing](https://www.alexdebrie.com/posts/dynamodb-transactions-performance/) - Alex DeBrie (DeBrie Advisory) shares his assessment of how large of a performance cost is incurred with DynamoDB transactions
+- 
 
 ## Chapter 3 - Database Internals: Hardware and Operation System Interactions
 - [Exploring Phantom Traffic Jams in Your Data Flows (video)](https://www.youtube.com/watch?v=IXS_Afb6Y4o)
@@ -112,6 +113,9 @@ This page provides quick access to the resources shared throughout the book, as 
  - [ShareChat’s Path to High-Performance NoSQL with ScyllaDB](https://www.youtube.com/watch?v=Y2yHv8iqigA)
 - [Load Balancing in ScyllaDB’s DynamoDB-Compatible API, Alternator](https://www.scylladb.com/2021/04/13/load-balancing-in-scylla-alternator/)
 
+### Learn More
+- [Caching for Performance Masterclass](https://lp.scylladb.com/caching-performance-masterclass-ondemand-register) - Memcached maintaier dormando and Felipe Mendes explore a variety of caching options – how they’re architected, how that impacts their “sweet spot” and tradeoffs, as well as tips for working with them
+
 ## Chapter 9 - Benchmarking
 - [How Optimizely (Safely) Maximizes Database Concurrency](https://www.youtube.com/watch?v=cSiVoX_nq1s)
 - [YCSB](https://github.com/brianfrankcooper/YCSB)
@@ -133,6 +137,7 @@ This page provides quick access to the resources shared throughout the book, as 
 Or Shwartz (Redis) present several benchmark tools that you can use to understand how Redis (and other databases) performs in an independent, stable, and easily reproducible manner 
 - [Demystifying Benchmarks: How to Use Them To Better Evaluate Databases](https://www.youtube.com/watch?v=RFKNDQa29qA) - Peter Friedenbach (Clustrix) covers different benchmarks measures, why they matter, and which ones best apply to your particular use case
 - [Fair Benchmarking Considered Difficult: Common Pitfalls In Database Performance Testing](https://mytherin.github.io/papers/2018-dbtest.pdf) - Mark Raasveldt, Pedro Holanda, Tim Gubner & Hannes Mühleisen share their a study of the common pitfalls in DBMS performance comparisons and how they can be spotted and avoided
+- [We Compared ScyllaDB and Memcached and… We Lost?](https://www.scylladb.com/2024/10/08/scylladb-and-memcached/) How and why ScyllaDB and Memcached engineers collaborated to compare both technologies in a vendor-neutral way.
   
 ## Chapter 10 - Monitoring
 - [perf Heat Maps](https://www.brendangregg.com/blog/2014-07-01/perf-heat-maps.html)
@@ -153,6 +158,7 @@ Or Shwartz (Redis) present several benchmark tools that you can use to understan
 - [Database Internals](https://www.databass.dev/), a book by Alex Petrov 
 
 ### Learn More
+- [Designing Data-Intensive Applications in 2025](https://www.scylladb.com/tech-talk/designing-data-intensive-applications-in-2025/) - Martin Kleppmann and Chris Riccomini chat about how data-intensive applications have evolved since the book was first published
 - [Introduction to NoSQL](https://www.youtube.com/watch?v=qI_g07C_Q5I) - Martin Fowler's crash course on NoSQL foundations
 - [CMU Database Group's YouTube Channel](https://www.youtube.com/@CMUDatabaseGroup) - Andy Pavlo offers free online access to his much-talked-about CMU courses, which range from intro to advanced topics
 - [Avoiding Data Hotspots at Scale](https://www.p99conf.io/session/avatar-image-avoiding-data-hotspots-at-scale/) - Konstantine Osipov (ScyllaDB) addresses the tradeoffs between hash and range-based sharding
@@ -164,8 +170,8 @@ Or Shwartz (Redis) present several benchmark tools that you can use to understan
 - [Consistency Tradeoffs in Modern Distributed Database System Design](https://www.cs.umd.edu/~abadi/papers/abadi-pacelc.pdf) - Dr. Daniel Abadi (UMD) introduces the PACELC theorem: In case of network partitioning (P) in a distributed computer system, one has to choose between availability (A) and consistency (C) (as per the CAP theorem), but else (E), even when the system is running normally in the absence of partitions, one has to choose between latency (L) and consistency (C)
 - [Leveraging Consistent Hashing in your Python Applications](https://www.youtube.com/watch?v=erINlrgygEk) - Alexys Jacob (Numberly) introduces consistent hashing, and the problems it solves, by walking through a practical use case in a Python application
 - [You're Already Eventually Consistent](http://rustyrazorblade.com/post/2015/2015-06-02-youre-already-eventually-consistent/) - Jon Haddad (Rustyrazorblade) clears up some misconceptions about eventual consistency
-- [Inconsistent Thoughts on Database Consistency](https://www.alexdebrie.com/posts/database-consistency/) - Alex Debrie (DeBrie Advisory) discusses the various definitions of the word "consistency" that are used in the distributed databases space then shares some of his issues with conversations about consistency
-- [Understanding Eventual Consistency in DynamoDB](https://www.alexdebrie.com/posts/dynamodb-eventual-consistency/) - Alex Debrie (DeBrie Advisory) dispels some of the fear around eventual consistency in DynamoDB
+- [Inconsistent Thoughts on Database Consistency](https://www.alexdebrie.com/posts/database-consistency/) - Alex DeBrie (DeBrie Advisory) discusses the various definitions of the word "consistency" that are used in the distributed databases space then shares some of his issues with conversations about consistency
+- [Understanding Eventual Consistency in DynamoDB](https://www.alexdebrie.com/posts/dynamodb-eventual-consistency/) - Alex DeBrie (DeBrie Advisory) dispels some of the fear around eventual consistency in DynamoDB
   
 
 ## Data Modeling
@@ -182,8 +188,9 @@ Getting data modeling right is vital for database performance, but it's a massiv
 - [NoSQL Data Modeling Mistakes that Ruin Performance](https://thenewstack.io/nosql-data-modeling-mistakes-that-ruin-performance/) - Felipe Cardeneti Mendes explores three of the most common ways to ruin your NoSQL database performance, along with tips on how to avoid or resolve them
 - [The Myth of Schema-less](http://rustyrazorblade.com/post/2014/2014-07-09-the-myth-of-schemaless/) - Jon Haddad (Rustyrazorblade) debunking the myth of schemaless databases
 
-- [Everything You Need to Know about DynamoDB Partitions](https://www.alexdebrie.com/posts/dynamodb-partitions/) - Alex Debrie (DeBrie Advisory) takes a deep look at DynamoDB partitions -- what they are, why they matter, and how they should affect your data modeling
-- [The What, Why, and When of Single-Table Design with DynamoDB](https://www.alexdebrie.com/posts/dynamodb-single-table/) - Alex Debrie (DeBrie Advisory) provides a deep dive on the concepts behind DynamoDB's single-table design
+- [Everything You Need to Know about DynamoDB Partitions](https://www.alexdebrie.com/posts/dynamodb-partitions/) - Alex DeBrie (DeBrie Advisory) takes a deep look at DynamoDB partitions -- what they are, why they matter, and how they should affect your data modeling
+- [The What, Why, and When of Single-Table Design with DynamoDB](https://www.alexdebrie.com/posts/dynamodb-single-table/) - Alex DeBrie (DeBrie Advisory) provides a deep dive on the concepts behind DynamoDB's single-table design
+- [Data Modeling for Performance Masterclass](https://lp.scylladb.com/data-model-performance-masterclass-ondemand-register) - Discord engineer Bo Ingram and Felipe Mendes share pragmatic strategies for designing, implementing, and monitoring data modeling for performance
 
 
 
