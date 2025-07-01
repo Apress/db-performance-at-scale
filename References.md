@@ -24,9 +24,8 @@ This page provides quick access to the resources shared throughout the book, as 
 
 ### Learn More
 - [DynamoDB Transactions Performance Testing](https://www.alexdebrie.com/posts/dynamodb-transactions-performance/) - Alex DeBrie (DeBrie Advisory) shares his assessment of how large of a performance cost is incurred with DynamoDB transactions
-- 
 
-## Chapter 3 - Database Internals: Hardware and Operation System Interactions
+## Chapter 3 - Database Internals: Hardware and Operating System Interactions
 - [Exploring Phantom Traffic Jams in Your Data Flows (video)](https://www.youtube.com/watch?v=IXS_Afb6Y4o)
 - [Exploring Phantom Traffic Jams in Your Data Flows (blog)](https://www.scylladb.com/2022/04/19/exploring-phantom-jams-in-your-data-flow/)
 - [Diskplorer](https://github.com/scylladb/diskplorer)
@@ -42,7 +41,7 @@ This page provides quick access to the resources shared throughout the book, as 
 - [How io_uring and eBPF Will Revolutionize Programming in Linux](https://www.scylladb.com/2020/05/05/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/) - Glauber Costa (Turso) shares his take on why io_uring and eBPF will completely change the way applications work with, and think about, the Linux Kernel
 - [Linux Kernel vs DPDK: HTTP Performance Showdown](https://talawah.io/blog/linux-kernel-vs-dpdk-http-performance-showdown/) - Marc Richards (AWS) uses an HTTP benchmark to compare the performance of the Linux kernel networking stack with userspace networking doing kernel bypass via DPDK
 - [How Application-Level Priority Management Keeps Latency Low and Throughput High](https://www.linuxfoundation.org/webinars/how-application-level-priority-management-keeps-latency-low-and-throughput-high) - Avi Kivity (ScyllaDB) on how high throughput and low latency can both be achieved in a single application by using application-level priority scheduling
-- [Inside ScyllaDB’s Internal Cache](https://www.scylladb.com/2024/01/08/inside-scylladbs-internal-cache/) - Tomasz Grabiec (ScyllaDB) on why it makes sense to completely bypasses the Linux cache during reads and use a specialized ,highly efficient row-based cache instead
+- [Inside ScyllaDB’s Internal Cache](https://www.scylladb.com/2024/01/08/inside-scylladbs-internal-cache/) - Tomasz Grabiec (ScyllaDB) on why it makes sense to completely bypasses the Linux cache during reads and use a specialized, highly efficient row-based cache instead
 
 ## Chapter 4 - Database Internals: Algorithmic Optimizations
 - [Branch predictor: How many "if"s are too many? Including x86 and M1 benchmarks!](  https://blog.cloudflare.com/branch-predictor/)
@@ -114,7 +113,7 @@ This page provides quick access to the resources shared throughout the book, as 
 - [Load Balancing in ScyllaDB’s DynamoDB-Compatible API, Alternator](https://www.scylladb.com/2021/04/13/load-balancing-in-scylla-alternator/)
 
 ### Learn More
-- [Caching for Performance Masterclass](https://lp.scylladb.com/caching-performance-masterclass-ondemand-register) - Memcached maintaier dormando and Felipe Mendes explore a variety of caching options – how they’re architected, how that impacts their “sweet spot” and tradeoffs, as well as tips for working with them
+- [Caching for Performance Masterclass](https://lp.scylladb.com/caching-performance-masterclass-ondemand-register) - Memcached maintainer dormando and Felipe Mendes explore a variety of caching options – how they’re architected, how that impacts their “sweet spot” and tradeoffs, as well as tips for working with them
 
 ## Chapter 9 - Benchmarking
 - [How Optimizely (Safely) Maximizes Database Concurrency](https://www.youtube.com/watch?v=cSiVoX_nq1s)
@@ -129,6 +128,7 @@ This page provides quick access to the resources shared throughout the book, as 
 - [On Coordinated Omission](https://www.scylladb.com/2021/04/22/on-coordinated-omission/)
 
 ### Learn More
+- [Database Benchmarking for Performance Masterclass](https://lp.scylladb.com/benchmarking-masterclass-ondemand-register) - Dr. Daniel Seybold (benchANT) and Felipe Mendes discuss how to rightsize your performance testing infrastructure, account for the impact of concurrency, recognize and mitigate coordinated omission, and understand probability distribution
 - [How to Measure Latency](https://www.p99conf.io/session/how-to-measure-latency/) - Heinrich Hartmann (Zalando) shares strategies for avoiding pitfalls with collecting, aggregating and analyzing latency data for monitoring and benchmarking.
 - [Solving the Issue of Mysterious Database Benchmarking Results](https://www.youtube.com/watch?v=x4ySN6L9LOQ) - Daniel Seybold (benchANT) on the unique challenges of running database benchmarks in the cloud
 - [The Do's and Don'ts of Database Benchmarking](https://www.youtube.com/watch?v=HS97mZDOdsM) - Glauber Costa (ScyllaDB) outlines a  set of best practices to improve the quality of your benchmarks
